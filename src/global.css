@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import url("https://fonts.googleapis.com/css2?family=Ysabeau+Infant&display=swap");
+
+:root {
+	--phone: 480px;
+	--tablet: 768px;
+	--desktop: 1920px;
+	--dark-primary: #282a36;
+	--green-color: #50fa7b;
+}

@@ -1,0 +1,147 @@
+.heroSection {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding-top: 40px;
+	align-items: center;
+	justify-content: center;
+	color: #e2e8f0;
+	font-size: larger;
+
+	@media only screen and (min-width: 768px) {
+		min-height: 500px;
+		flex-direction: row;
+	}
+}
+
+/* HOME */
+
+.homePage {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	max-width: 1920px;
+	background-color: var(--bg-color);
+
+	@media only screen and (min-width: 768px) {
+		max-width: 1240px;
+		background-color: blue;
+	}
+	@media only screen and (min-width: 1920px) {
+		max-width: 1920px;
+		background-color: red;
+	}
+}
+
+.homeSection {
+	display: flex;
+	flex-direction: column;
+	min-height: 100vh;
+	padding-top: 40px;
+	background-color: red;
+	align-items: center;
+	justify-content: flex-start;
+	background-color: var(--bg-color);
+	color: #e2e8f0;
+	font-size: larger;
+}
+
+.heroTextWrap {
+	display: flex;
+	flex-direction: column;
+	width: 100%;
+	max-width: 720px;
+	align-items: flex-start;
+}
+
+.heroText {
+	color: #50fa7b;
+	font-size: x-large;
+}
+
+.heroImage {
+	width: 400px;
+	height: 400px;
+}
+
+.homeContent {
+	display: flex;
+	flex-direction: column;
+	max-width: 720px;
+	align-items: flex-start;
+}
+
+.homeWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding: 30px 20px;
+	text-align: left;
+}
+
+.homeImage {
+	margin-right: 20px;
+	width: 50px;
+	height: 50px;
+}
+
+.homeBtnWrap {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: 200px;
+	height: 40px;
+	border: 2px solid green;
+	border-radius: 15px;
+	color: green;
+}
+
+/* About */
+
+.heroTitle {
+	font-size: xx-large;
+	font-weight: bold;
+	width: 100%;
+	max-width: 720px;
+	text-align: left;
+}
+
+.aboutWrap {
+	display: flex;
+	flex-direction: column;
+	text-align: left;
+	max-width: 720px;
+}
+
+.aboutContent {
+	padding: 20px 5px;
+	line-height: 1.4em;
+}
+
+/* Contact */
+
+.contactLottieWrap {
+	width: 400px;
+	height: 400px;
+}
+
+/* Work/Projects */
+
+.workWrap {
+	display: flex;
+	justify-content: space-between;
+	flex-direction: row;
+	text-align: left;
+	max-width: 1240px;
+	margin: 40px 0;
+}
+
+.workImageWrap {
+	width: 40%;
+	background-color: ivory;
+}
+
+.workContent {
+	width: 50%;
+}

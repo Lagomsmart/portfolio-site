@@ -1,0 +1,31 @@
+.navbar {
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 0em;
+	background-color: #282a36;
+	color: #e2e8f0;
+	font-size: larger;
+	width: 100vw;
+}
+
+.navbarLeft {
+	display: flex;
+	flex-direction: row;
+}
+
+.navbarRight {
+	display: flex;
+	flex-direction: row;
+	margin-right: 1em;
+}
+
+.navbarImage {
+	margin-right: 1em;
+	margin-left: 3em;
+}
+
+.navbarButton {
+	margin-right: 2em;
+	text-decoration: none;
+	color: #e2e8f0;
+}
