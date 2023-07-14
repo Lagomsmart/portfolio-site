@@ -29,7 +29,7 @@ export default function Home() {
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Donec lacinia odio et lorem ullamcorper semper. Morbi
 						bibendum est non sapien facilisis luctus. Aliquam id
-						scelerisque augue.
+						scelerisque augue. test
 					</div>
 					<div>
 						<Marquee />
