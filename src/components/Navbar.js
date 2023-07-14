@@ -10,8 +10,6 @@ export default function Example() {
 		);
 	}, []);
 
-	const navList = <ul className=""></ul>;
-
 	return (
 		<nav class="bg-bgprimary border-bgprimary dark:bg-bgprimary">
 			<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">

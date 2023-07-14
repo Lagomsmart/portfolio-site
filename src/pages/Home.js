@@ -60,7 +60,11 @@ export default function Home() {
 						<div class="block absolute right-0 top-0 border w-1/3 border-green-color" />
 						<div class="block absolute left-0 bottom-0 border h-1/3 border-green-color" />
 						<div class="block absolute left-0 bottom-0 border w-1/3 border-green-color" />
-						<img class="w-3/4 h-auto" src={codinglaptop} />
+						<img
+							class="w-3/4 h-auto"
+							src={codinglaptop}
+							alt="laptop"
+						/>
 					</div>
 					<div class="text-3xl mt-6 mt-6">Web Developer</div>
 					<div class="text-xl leading-8 mt-6 text-ysab">
