@@ -7,22 +7,22 @@ import { FaReact } from "react-icons/fa";
 
 export default function Contact() {
 	return (
-		<div>
-			<section className="heroSection">
-				<div className="heroTitle">Contact</div>
-				<div className="aboutWrap">
-					<div className="aboutContent">
+		<div className="flex flex-col justify-center">
+			<section className="flex flex-col text-white md:max-w-[1440px]">
+				<div className="text-4xl self-center">Contact</div>
+				<div className="flex flex-col">
+					<div className="text-l text-center md:text-left mt-5">
 						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
 						Proin ut vehicula ante. Quisque fermentum orci augue,
 						non lobortis dui dignissim ut. Pellentesque bibendum
 						arcu eget nulla porttitor, at congue massa convallis.
 					</div>
-					<div className="aboutContent">
+					<div className="text-l text-center md:text-left mt-5">
 						Nam porta augue convallis ante cursus posuere. Fusce
 						elit dui, facilisis at magna id, consequat bibendum mi.
 						Nullam congue metus et porta gravida.
 					</div>
-					<div className="aboutContent">
+					<div className="text-center md:text-left mt-10">
 						JesperBennett@Protonmail.com
 					</div>
 				</div>
