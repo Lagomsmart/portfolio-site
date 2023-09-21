@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Button from "../components/Button";
 import Marquee from "../components/Marquee";
-import Carousel from "../components/Carousel";
+import { Carousel } from "@material-tailwind/react";
 
 import Lottie from "lottie-react";
 import lottieImage from "../lotties/languageSpin.json";
@@ -16,7 +16,7 @@ import codinglaptop from "../images/codinglaptop.jpg";
 
 export default function Home() {
 	return (
-		<div class="flex items-center flex-col md:p-10 md:mt-8">
+		<div class="flex w-full items-center flex-col md:p-10 md:mt-8">
 			<section class="flex flex-col-reverse md:flex-row justify-center md:justify-evenly w-full">
 				<div class="flex flex-col md:w-1/2 justify-center text-center md:text-left">
 					<div class="text-3xl text-green-color">
@@ -90,52 +90,42 @@ export default function Home() {
 						Projects
 					</div>
 				</div>
-				<div class="flex w-1/2">
-					<Carousel />
-				</div>
-			</section>
-
-			<section class="relative flex text-white justify-center text-center pt-40 md:mt-30 w-full md:border-x-2 md:border-x-green-color">
-				<div class="hidden md:flex items-center justify-end absolute bg-red-500 z-10 -left-1/2 h-[80%] w-2/3 rounded-2xl">
-					<div class="flex uppercase text-5xl  text-light -rotate-90 tracking-wide">
-						Projects
-					</div>
-				</div>
-				<div class="flex-col ">
-					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<BsLaptop size={50} />
+				<div class="flex flex-col md:flex-row justify-center w-full">
+					<div class="hidden md:block md:w-1/6"></div>
+					<div class="flex flex-col w-full md:w-2/6 md:px-12 text-center md:text-left justify-center ">
+						<div class="self-center text-4xl mb-6">Projects</div>
+						<div class="pb-4">
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Donec lacinia odio et lorem ullamcorper
+							semper. Morbi bibendum est non sapien facilisis
+							luctus. Aliquam id scelerisque augue.
 						</div>
-						<div class="my-auto">
-							I'm a web developer based in Miami, mainly focused
-							on front-end
+						<div>
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Donec lacinia odio et lorem ullamcorper
+							semper. Morbi bibendum est non sapien facilisis
+							luctus. Aliquam id scelerisque augue.
 						</div>
 					</div>
-
-					<div class="rounded-sm border-green-600 border-2 hover:border-green-primary py-2">
-						<div className="homeBtn">Set up a meeting</div>
-					</div>
-					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<AiOutlineFundProjectionScreen size={50} />
-						</div>
-						<div class="my-auto">
-							If you are interested in my latest work and
-							accomplishments, check out the Projects page
-						</div>
-					</div>
-					<Link to="/About" className="navbarButton">
-						<div className="homeBtnWrap">
-							<div className="homeBtn">Link to work page</div>
-						</div>
-					</Link>
-					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<FaReact size={50} />
-						</div>
-						<div class="my-auto">
-							My choice of programming language is JavaScript, and
-							its library React
+					<div class="flex w-full md:w-3/6 md:pr-12 pt-8 md:pt-0 justify-center">
+						<div class="md:w-5/6 w-full">
+							<Carousel class="rounded-xl">
+								<img
+									src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+									alt="image 1"
+									class="h-full w-full object-cover"
+								/>
+								<img
+									src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+									alt="image 2"
+									class="h-full w-full object-cover"
+								/>
+								<img
+									src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+									alt="image 3"
+									class="h-full w-full object-cover"
+								/>
+							</Carousel>
 						</div>
 					</div>
 				</div>
