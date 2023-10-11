@@ -16,7 +16,7 @@ import codinglaptop from "../images/codinglaptop.jpg";
 
 export default function Home() {
 	return (
-		<div class="flex w-full max-w-[1920px] justify-self-center items-center flex-col md:p-10 md:mt-8">
+		<div class="flex w-full max-w-[1920px] items-center flex-col md:p-10 md:mt-8">
 			<section class="flex flex-col-reverse md:flex-row justify-center md:justify-evenly w-full">
 				<div class="flex flex-col md:w-1/2 justify-center text-center md:text-left">
 					<div class="text-3xl text-green-color">
