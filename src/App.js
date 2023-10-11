@@ -9,7 +9,7 @@ import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 
 function App() {
 	return (
-		<div class="flex flex-col justify-center items-center bg-bgprimary w-auto">
+		<div class="flex flex-col justify-center items-center md:overflow-hidden bg-bgprimary w-auto">
 			<Navbar />
 			<Routes>
 				<Route exact path="/" element={<Home />}></Route>
