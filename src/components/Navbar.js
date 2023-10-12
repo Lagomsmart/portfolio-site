@@ -4,7 +4,7 @@ export default function Navbar() {
 	const [showMobileMenu, setShowMobileMenu] = useState(false);
 
 	return (
-		<nav className="bg-bgprimary border-bgprimary dark:bg-bgprimary">
+		<nav className="bg-bgprimary w-full max-w-[1920px] border-bgprimary dark:bg-bgprimary">
 			<div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
 				<a href="/" class="flex items-center">
 					<img
