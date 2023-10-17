@@ -22,14 +22,15 @@ export default function Home() {
 					<div class="text-3xl text-green-color">
 						Hi I'm Jesper 👋🏼
 					</div>
-					<div class="text-2xl text-green-color mb-6">
-						and I ❤️ web development
+					<div class="text-2xl text-green-color mb-6 mt-2">
+						Front End Web Developer
 					</div>
-					<div class="text-xl leading-8 text-green-color text-ysab md:w-5/6">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Donec lacinia odio et lorem ullamcorper semper. Morbi
-						bibendum est non sapien facilisis luctus. Aliquam id
-						scelerisque augue. test
+					<div class="text-xl leading-8 text-white text-ysab md:w-5/6">
+						I'm thrilled that you've taken the time to explore my
+						work and passion for creating engaging, user-centric web
+						experiences. Whether you're here to view my projects,
+						seek inspiration for your own, or discuss potential
+						collaborations, I'm here to assist.
 					</div>
 					<div>
 						<Marquee />
@@ -39,7 +40,7 @@ export default function Home() {
 							<Button page="/contact" title={"Contact me"} />
 						</div>
 						<div>
-							<Button title={"Read more"} />
+							<Button page="#Tech" title={"Read more ↓"} />
 						</div>
 					</div>
 				</div>
@@ -48,7 +49,10 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section class="flex flex-col md:flex-row-reverse text-white justify-center text-center md:pt-4 mt-24 md:justify-evenly md:border-x-2 md:border-x-green-color">
+			<section
+				id="Tech"
+				class="flex flex-col md:flex-row-reverse text-white justify-center text-center md:pt-4 mt-24 md:justify-evenly md:border-x-2 md:border-x-green-color"
+			>
 				<div class="flex row md:flex-col items-center md:items-end justify-center text-3xl md:text-6xl text-bold md:w-1/3 uppercase">
 					<div>
 						Services <br />& Tech
@@ -68,17 +72,16 @@ export default function Home() {
 					</div>
 					<div class="text-3xl mt-6 mt-6">Web Developer</div>
 					<div class="text-xl leading-8 mt-6 text-ysab">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-						Donec lacinia odio et lorem ullamcorper semper. Morbi
-						bibendum est non sapien facilisis luctus. Aliquam id
-						scelerisque augue.
+						Fast load time and lag free interactions. Responsive
+						layouts that work on any device, big or small. Dynamic
+						styles that make pages come to life.
 					</div>
 					<div class="flex justify-center md:justify-start mt-6">
 						<div class="mr-5">
-							<Button page="/contact" title={"My resume"} />
+							<Button page="/contact" title={"My Resume"} />
 						</div>
 						<div>
-							<Button title={"Read more"} />
+							<Button page="/work" title={"Projects"} />
 						</div>
 					</div>
 				</div>
@@ -93,18 +96,15 @@ export default function Home() {
 				<div class="flex flex-col md:flex-row justify-center w-full">
 					<div class="hidden md:block md:w-1/6"></div>
 					<div class="flex flex-col w-full md:w-2/6 md:px-12 text-center md:text-left justify-center ">
-						<div class="self-center text-4xl mb-6">Projects</div>
-						<div class="pb-4">
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Donec lacinia odio et lorem ullamcorper
-							semper. Morbi bibendum est non sapien facilisis
-							luctus. Aliquam id scelerisque augue.
+						<div class=" md:hidden self-center text-4xl mb-6">
+							Projects
 						</div>
-						<div>
-							Lorem ipsum dolor sit amet, consectetur adipiscing
-							elit. Donec lacinia odio et lorem ullamcorper
-							semper. Morbi bibendum est non sapien facilisis
-							luctus. Aliquam id scelerisque augue.
+						<div class="pb-4 text-xl leading-8 mt-6 text-ysab">
+							Here you'll find a diverse range of websites I've
+							had the privilege of working on. From responsive
+							designs to user-friendly interfaces, these examples
+							showcase my commitment to turning ideas into
+							functional, aesthetically pleasing realities.
 						</div>
 					</div>
 					<div class="flex w-full md:w-3/6 md:pr-12 pt-8 md:pt-0 justify-center">
@@ -137,46 +137,36 @@ export default function Home() {
 						Testimonials
 					</div>
 				</div>
-				<div class="flex-col ">
+				<div class="flex-col text-xl leading-8 mt-6 text-ysab md:max-w-5xl">
 					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<BsLaptop size={50} />
-						</div>
 						<div class="my-auto">
-							I'm a web developer based in Miami, mainly focused
-							on front-end
+							In my journey I've had the privilege of working
+							alongside some incredibly talented individuals and
+							teams. Their feedback and endorsements mean the
+							world to me and are a testament to the collaborative
+							spirit that drives my work.
 						</div>
 					</div>
 
 					<Button
 						page="https://drive.google.com/file/d/1CEGeH5oQ7XgiXPHMMjGd27oHZSpRMYUM/view?usp=sharing"
-						title={"Testimonial 1"}
+						title={"Testimonial"}
 					/>
 
 					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<MdWorkOutline size={50} />
-						</div>
 						<div class="my-auto">
-							If you are interested in my latest work and
-							accomplishments, check out the Projects page
+							If you'd like to learn more about my experiences
+							with past teams or collaborators, please feel free
+							to explore these testimonials. I'm excited to share
+							the journey and expertise that I've gained along the
+							way.
 						</div>
 					</div>
 
 					<Button
-						page="https://drive.google.com/file/d/1CEGeH5oQ7XgiXPHMMjGd27oHZSpRMYUM/view?usp=sharing"
-						title={"Testimonial 1"}
+						page="https://drive.google.com/file/d/1SlBkRV4YnpJwKAjhncn3EECQE9wYhb8-/view"
+						title={"Testimonial"}
 					/>
-
-					<div class="flex flex-row align-center md:px-5 py-6">
-						<div class="mr-3 my-auto w-[50px] h-[50px]">
-							<MdCardTravel size={50} />
-						</div>
-						<div class="my-auto">
-							My choice of programming language is JavaScript, and
-							its library React
-						</div>
-					</div>
 				</div>
 			</section>
 		</div>

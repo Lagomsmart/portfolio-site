@@ -2,8 +2,8 @@ import React from "react";
 
 export default function Work() {
 	return (
-		<section class="flex w-full max-w-[1920px] items-center flex-col md:p-10 md:mt-8 text-white">
-			<div class="flex p-4 md:w-3/4 md:flex-row flex-col justify-between">
+		<section class="flex w-full max-w-[1920px] items-center flex-col md:p-10 md:mt-8 text-white text-xl leading-8 mt-6 text-ysab">
+			<div class="flex p-4 md:w-3/4 md:flex-row flex-col justify-between ">
 				<div class="w-full md:w-2/5 h-40 bg-white">image</div>
 				<div class="w-full md:w-2/5">
 					<div>Music.Care</div>
