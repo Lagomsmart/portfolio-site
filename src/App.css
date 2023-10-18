@@ -5,11 +5,17 @@
 	justify-content: center;
 	align-items: center;
 	background-color: var(--bg-color);
+	scroll-behavior: smooth;
 }
 
 .App-logo {
 	height: 40vmin;
 	pointer-events: none;
+}
+
+html,
+body {
+	scroll-behavior: smooth;
 }
 
 @media (prefers-reduced-motion: no-preference) {
