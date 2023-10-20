@@ -134,39 +134,27 @@ export default function Home() {
 			<section class="relative flex text-white justify-center text-center pt-40 md:mt-30 w-full md:border-x-2 md:border-x-green-color">
 				<div class="hidden md:flex items-center justify-start absolute bg-red-500 z-10 -right-1/2 h-[80%] w-2/3 rounded-2xl">
 					<div class="flex uppercase text-5xl  text-light -rotate-90 tracking-wide">
-						Testimonials
+						empty
 					</div>
 				</div>
 				<div class="flex-col text-xl leading-8 mt-6 text-ysab md:max-w-5xl">
 					<div class="flex flex-row align-center md:px-5 py-6">
 						<div class="my-auto">
-							In my journey I've had the privilege of working
-							alongside some incredibly talented individuals and
-							teams. Their feedback and endorsements mean the
-							world to me and are a testament to the collaborative
-							spirit that drives my work.
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Pellentesque sed placerat diam, vel tincidunt
+							dui. Class aptent taciti sociosqu ad litora torquent
+							per conubia nostra, per inceptos himenaeos.
 						</div>
 					</div>
-
-					<Button
-						page="https://drive.google.com/file/d/1CEGeH5oQ7XgiXPHMMjGd27oHZSpRMYUM/view?usp=sharing"
-						title={"Testimonial"}
-					/>
 
 					<div class="flex flex-row align-center md:px-5 py-6">
 						<div class="my-auto">
-							If you'd like to learn more about my experiences
-							with past teams or collaborators, please feel free
-							to explore these testimonials. I'm excited to share
-							the journey and expertise that I've gained along the
-							way.
+							Lorem ipsum dolor sit amet, consectetur adipiscing
+							elit. Pellentesque sed placerat diam, vel tincidunt
+							dui. Class aptent taciti sociosqu ad litora torquent
+							per conubia nostra, per inceptos himenaeos.
 						</div>
 					</div>
-
-					<Button
-						page="https://drive.google.com/file/d/1SlBkRV4YnpJwKAjhncn3EECQE9wYhb8-/view"
-						title={"Testimonial"}
-					/>
 				</div>
 			</section>
 		</div>

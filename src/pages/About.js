@@ -40,14 +40,14 @@ export default function About() {
 					sharing my passion for front-end web development with you
 					and bringing your digital visions to life.
 				</div>
-				<div class="flex self-center mt-8">
+				<div class="flex flex-col md:flex-row self-center mt-8">
 					<div>
 						<Button
 							page="https://drive.google.com/file/d/1CEGeH5oQ7XgiXPHMMjGd27oHZSpRMYUM/view?usp=sharing"
 							title={"Testimonial"}
 						/>
 					</div>
-					<div class="mx-8">
+					<div class="mx-8 my-6 md:my-0">
 						<Button page="/contact" title={"Contact"} />
 					</div>
 					<div>
