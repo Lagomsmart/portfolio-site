@@ -17,7 +17,7 @@ export default function Work() {
 						that has received numerous awards and is certified by
 						medical institutions.
 					</div>
-					<div>PUG JavaScript jQuery HTML CSS</div>
+					<div>PUG, JavaScript, jQuery, HTML&CSS</div>
 				</div>
 			</div>
 
@@ -26,7 +26,7 @@ export default function Work() {
 				<div class="w-full flex flex-col items-center justify-evenly text-center md:w-2/5">
 					<a href="https://www.noajewelry.shop/">NOA Jewelry</a>
 					<div>Affordable luxary jewelry online store</div>
-					<div>React.JS HTML CSS</div>
+					<div>React.JS, HTML&CSS</div>
 				</div>
 			</div>
 
@@ -38,7 +38,7 @@ export default function Work() {
 						App built to help incarcerated persons maintain and grow
 						their support network.
 					</div>
-					<div>React.JS HTML CSS</div>
+					<div>ReactNative, HTML&CSS</div>
 				</div>
 			</div>
 		</section>
