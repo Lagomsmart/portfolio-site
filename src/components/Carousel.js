@@ -1,22 +1,25 @@
 import React from "react";
 import codingLaptop from "../images/codinglaptop.jpg";
 import { Carousel } from "@material-tailwind/react";
+import kiwichatpage from "../images/kiwichatpage.png";
+import noajewelrypage from "../images/noajewelrypage.png";
+import musiccarepage from "../images/musiccarepage.png";
 
 export default function CarouselComponent() {
 	return (
 		<Carousel class="rounded-xl">
 			<img
-				src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+				src={kiwichatpage}
 				alt="image 1"
 				class="h-full w-full object-cover"
 			/>
 			<img
-				src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+				src={noajewelrypage}
 				alt="image 2"
 				class="h-full w-full object-cover"
 			/>
 			<img
-				src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+				src={musiccarepage}
 				alt="image 3"
 				class="h-full w-full object-cover"
 			/>

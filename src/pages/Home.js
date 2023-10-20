@@ -5,6 +5,9 @@ import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 import Button from "../components/Button";
 import Marquee from "../components/Marquee";
 import { Carousel } from "@material-tailwind/react";
+import kiwichatpage from "../images/kiwichatpage.png";
+import noajewelrypage from "../images/noajewelrypage.png";
+import musiccarepage from "../images/musiccarepage.png";
 
 import Lottie from "lottie-react";
 import lottieImage from "../lotties/languageSpin.json";
@@ -111,17 +114,17 @@ export default function Home() {
 						<div class="md:w-5/6 w-full">
 							<Carousel class="rounded-xl">
 								<img
-									src="https://images.unsplash.com/photo-1497436072909-60f360e1d4b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2560&q=80"
+									src={kiwichatpage}
 									alt="image 1"
 									class="h-full w-full object-cover"
 								/>
 								<img
-									src="https://images.unsplash.com/photo-1493246507139-91e8fad9978e?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80"
+									src={noajewelrypage}
 									alt="image 2"
 									class="h-full w-full object-cover"
 								/>
 								<img
-									src="https://images.unsplash.com/photo-1518623489648-a173ef7824f3?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2762&q=80"
+									src={musiccarepage}
 									alt="image 3"
 									class="h-full w-full object-cover"
 								/>
@@ -131,7 +134,7 @@ export default function Home() {
 				</div>
 			</section>
 
-			<section class="relative flex text-white justify-center text-center pt-40 md:mt-30 w-full md:border-x-2 md:border-x-green-color">
+			{/* <section class="relative flex text-white justify-center text-center pt-40 md:mt-30 w-full md:border-x-2 md:border-x-green-color">
 				<div class="hidden md:flex items-center justify-start absolute bg-red-500 z-10 -right-1/2 h-[80%] w-2/3 rounded-2xl">
 					<div class="flex uppercase text-5xl  text-light -rotate-90 tracking-wide">
 						empty
@@ -156,7 +159,7 @@ export default function Home() {
 						</div>
 					</div>
 				</div>
-			</section>
+			</section> */}
 		</div>
 	);
 }
