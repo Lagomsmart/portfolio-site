@@ -1,6 +1,5 @@
 import React from "react";
 import "./pages.css";
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
 
 import Button from "../components/Button";
 import Marquee from "../components/Marquee";
@@ -11,10 +10,6 @@ import musiccarepage from "../images/musiccarepage.png";
 
 import Lottie from "lottie-react";
 import lottieImage from "../lotties/languageSpin.json";
-import { IconContext, BsLaptop } from "react-icons/bs";
-import { AiOutlineFundProjectionScreen } from "react-icons/ai";
-import { FaReact } from "react-icons/fa";
-import { MdWorkOutline, MdCardTravel } from "react-icons/md";
 import codinglaptop from "../images/codinglaptop.jpg";
 
 export default function Home() {
@@ -111,7 +106,7 @@ export default function Home() {
 						</div>
 					</div>
 					<div class="flex w-full md:w-3/6 md:pr-12 pt-8 md:pt-0 justify-center">
-						<div class="md:w-5/6 w-full">
+						<a href="/work" class="md:w-5/6 w-full">
 							<Carousel class="rounded-xl">
 								<img
 									src={kiwichatpage}
@@ -129,7 +124,7 @@ export default function Home() {
 									class="h-full w-full object-cover"
 								/>
 							</Carousel>
-						</div>
+						</a>
 					</div>
 				</div>
 			</section>
